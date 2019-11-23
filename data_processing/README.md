@@ -16,11 +16,11 @@ spark-submit --driver-memory 8g --executor-memory 8g --master spark://ec2-100-20
 
 
 Options:
-      -2: count local commits
-      -22: count Commits for a user from s3 [s3 data]")
-      -3: count followers for a user [local]
-      -33:count followers for a user [s3]
-      -4: count projects owner by user [local]
-      -44: count project owned by user [s3]
+      - 2: count local commits
+      - 22: count Commits for a user from s3 [s3 data]")
+      - 3: count followers for a user [local]
+      - 33:count followers for a user [s3]
+      - 4: count projects owner by user [local]
+      - 44: count project owned by user [s3]
       
 
