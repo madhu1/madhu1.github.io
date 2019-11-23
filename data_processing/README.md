@@ -1,12 +1,15 @@
 
+
+#Processing GitHub data from S3 and local files: 
+
 This folder contains various processing class that are used to perform analytical task on GitHub data. Individual metrics are obtained.
 
 All these class use load and dbconnect read data from S3 and store it to database respectively.
 
 
-#To count the commits in specific language
+To count the commits in specific language
 psql -h 10.0.0.14 -p 5432 -U dbuser -W resultdb
-# 1: run users.csv and store to resultdb.
+1: run users.csv and store to resultdb.
 spark-submit main.py 1
 to run user_load with larger memory
 spark-submit --driver-memory 8g --executor-memory 8g --master spark://ec2-100-20-13-37.us-west-2.compute.amazonaws.com:7077 main.py 11
