@@ -24,3 +24,7 @@ Options:
       - 44: count project owned by user [s3]
       
 
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
